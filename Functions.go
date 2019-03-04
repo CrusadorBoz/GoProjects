@@ -9,9 +9,9 @@ func addtwopoints(a int, b int) int {
 	return a + b
 }
 
-//func addseries(a, b, c int) {
-//	return a + b + c
-//}
+func addseries(a, b, c int) int {
+	return a + b + c
+}
 
 func main() {
 	var tot int = 0
@@ -21,4 +21,6 @@ func main() {
 	sumOfTwo := addtwopoints(1, 4)
 	fmt.Println("14 + 33 = ", tot)
 	fmt.Println("1 + 4 = ", sumOfTwo)
+	sumSeries := addseries(4, 6, 8)
+	fmt.Println("Sum of series ", sumSeries)
 }
